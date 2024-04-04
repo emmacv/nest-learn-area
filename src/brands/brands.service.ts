@@ -68,4 +68,8 @@ export class BrandsService {
 
     return brand;
   }
+
+  fillWithSeedData(brands: Brand[]) {
+    this.brands = brands;
+  }
 }
